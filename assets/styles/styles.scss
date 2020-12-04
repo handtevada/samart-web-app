@@ -1,0 +1,88 @@
+@charset 'utf-8';
+
+@import './bluma-custom.scss';
+@import './components/navbar.scss';
+@import './components/footer.scss';
+@import './components/home.scss';
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+$sm-orange: #ee8a18;
+$sm-blue: #3578e5;
+$sm-green: #1ab199;
+
+body {
+  font-family: 'Kanit', sans-serif;
+  height: 100vh;
+}
+
+.sm-center {
+  text-align: center;
+}
+
+.sm-left {
+  text-align: left;
+}
+
+.sm-right {
+  text-align: right;
+}
+
+.sm-mgt-10 {
+  margin-top: 10px;
+}
+
+.sm-mgt-20 {
+  margin-top: 20px;
+}
+
+.sm-mgb-10 {
+  margin-bottom: 10px;
+}
+
+.sm-mgb-20 {
+  margin-bottom: 20px;
+}
+
+.sm-pdl-10 {
+  padding-left: 10px;
+}
+.sm-pdl-20 {
+  padding-left: 20px;
+}
+
+.sm-text-color-primary {
+  color: $sm-orange;
+}
+
+.sm-text-color-secondary {
+  color: $sm-blue;
+}
+
+.sm-text-color-tertiary {
+  color: $sm-green;
+}
+
+.sm-font-logo {
+  font-family: 'Boogaloo', sans-serif;
+}
+
+.sm-sub-menu {
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $sm-green;
+  }
+}
+
+.sm-sub-menu-active {
+  background-color: $sm-green;
+  color: white;
+}

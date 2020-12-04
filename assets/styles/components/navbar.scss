@@ -1,0 +1,51 @@
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover,
+a.navbar-item.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+.navbar-link.is-active {
+  background-color: #fff;
+  text-decoration: none;
+  transform: translateY(-1px) scale3d(1.03, 1.03, 1.03);
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.sm-navbar-container {
+  position: fixed;
+  height: 80px;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media (max-width: 1700px) and (min-width: 1200px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.sm-nav-brand {
+  margin-top: 10px;
+  display: flex;
+}
+
+.sm-navbar-logo {
+  border-radius: 5px;
+}
+
+.sm-navbar-logo-text {
+  margin-left: 10px;
+
+  div {
+    font-weight: 700;
+  }
+}

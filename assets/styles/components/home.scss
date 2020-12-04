@@ -1,0 +1,72 @@
+.sm-hero {
+  @media (max-width: 768px) {
+    margin-top: 50px;
+  }
+}
+
+.sm-img-hero {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.sm-card {
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    -webkit-transform: translateY(-1px) scale3d(1.03, 1.03, 1.03);
+    -moz-transform: translateY(-1px) scale3d(1.03, 1.03, 1.03);
+    transform: translateY(-1px) scale3d(1.03, 1.03, 1.03);
+  }
+
+  .sm-card-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+  }
+}
+
+.sm-home-section-even {
+  background-color: #f2f3f5;
+}
+
+.sm-gallery-img {
+  height: 300px;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    -webkit-transform: translateY(-1px) scale3d(1.03, 1.03, 1.03);
+    -moz-transform: translateY(-1px) scale3d(1.03, 1.03, 1.03);
+    transform: translateY(-1px) scale3d(1.03, 1.03, 1.03);
+  }
+}
+
+.sm-card-img {
+  width: 100%;
+  height: 400px;
+}
+
+.sm-card-img-fix {
+  width: 100px;
+  height: 100px;
+}
+
+.sm-maps {
+  width: 100%;
+  height: 550px;
+}
+.sm-maps-maker {
+  width: 100px;
+  height: 30px;
+  color: rgb(104, 67, 0);
+}
+
+.sm-button-fb {
+  background-color: #fff;
+  border: 2px solid #3b5998;
+  color: #3b5998;
+  border-radius: 30px;
+}
