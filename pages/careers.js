@@ -90,7 +90,7 @@ export default function Careers() {
               <li>
                 -{' '}
                 <a href='mailto:samarteducarenursery@gmail.com' target='_blank'>
-                  samarteducarenursery@gmail.com
+                  Email
                 </a>
               </li>
               <li>
