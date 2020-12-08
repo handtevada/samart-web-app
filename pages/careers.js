@@ -96,7 +96,7 @@ export default function Careers() {
               <li>
                 -{' '}
                 <a href='https://www.facebook.com/samarteducarenursery' target='_blank'>
-                  https://www.facebook.com/samarteducarenursery
+                  Fanpage Facebook
                 </a>
               </li>
             </ul>
