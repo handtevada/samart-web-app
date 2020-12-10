@@ -6,7 +6,7 @@ a.navbar-item.is-active,
 .navbar-link:focus-within,
 .navbar-link:hover,
 .navbar-link.is-active {
-  background-color: #fff;
+  background-color: transparent;
   text-decoration: none;
   transform: translateY(-1px) scale3d(1.03, 1.03, 1.03);
 }
