@@ -89,7 +89,7 @@ export default function Home() {
                   </button>
                 </div>
               </div>
-              <div className='column' style={{ textAlign: 'center' }}>
+              <div className='column' style={{ textAlign: 'center', transform: 'rotate(-5deg)' }}>
                 <img
                   src='/img/hero.gif'
                   alt='samart edu-care nursery'
