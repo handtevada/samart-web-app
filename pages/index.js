@@ -18,13 +18,11 @@ export default function Home() {
   const courseList = [
     {
       img: '/img/course1.jpg',
-      desc:
-        'หลักสูตรเตรียมหนูน้อยก่อนไปโรงเรียน 2-4 ปี เสริมสร้างการเรียนรู้และทักษะที่เหมาะสมแก่หนูน้อย',
+      desc: 'หลักสูตรเตรียมหนูน้อยก่อนไปโรงเรียน 2-4 ปี เสริมสร้างการเรียนรู้และทักษะที่เหมาะสมแก่หนูน้อย',
     },
     {
       img: '/img/course2.jpg',
-      desc:
-        'หลักสูตรดูแลเด็กเล็ก 3 เดือนถึง 2 ปี โดยครูปฐมวัยและนายแพทย์ พร้อมด้วยบุคลากรที่ผ่านการอบรม',
+      desc: 'หลักสูตรดูแลเด็กเล็ก 3 เดือนถึง 2 ปี โดยครูปฐมวัยและนายแพทย์ พร้อมด้วยบุคลากรที่ผ่านการอบรม',
     },
     {
       img: '/img/course4.jpg',
@@ -78,7 +76,7 @@ export default function Home() {
                 <div className='is-size-2 sm-right sm-text-color-tertiary sm-font-logo'>
                   061-546-1614
                 </div>
-                <div className='sm-right'>
+                <div className='sm-right sm-mgt-20'>
                   <button
                     className='button is-size-5 sm-button-fb'
                     onClick={() =>
