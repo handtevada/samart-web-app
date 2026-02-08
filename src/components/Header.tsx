@@ -48,7 +48,7 @@ export default function Header() {
             Services
           </Link>
           <Link
-            href="https://m.me/samarteducarenursery"
+            href="https://www.facebook.com/samarteducarenursery"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-orange-500 transition-colors"
@@ -100,9 +100,7 @@ export default function Header() {
               href="/"
               onClick={() => setIsMenuOpen(false)}
               className={`p-3 rounded-lg hover:bg-orange-50 hover:text-orange-600 transition-colors ${
-                pathname === "/"
-                  ? "text-orange-600 font-bold bg-orange-50"
-                  : "text-gray-600"
+                pathname === "/" ? "text-orange-600 font-bold bg-orange-50" : "text-gray-600"
               }`}
             >
               Home
@@ -111,9 +109,7 @@ export default function Header() {
               href="/about"
               onClick={() => setIsMenuOpen(false)}
               className={`p-3 rounded-lg hover:bg-orange-50 hover:text-orange-600 transition-colors ${
-                pathname === "/about"
-                  ? "text-orange-600 font-bold bg-orange-50"
-                  : "text-gray-600"
+                pathname === "/about" ? "text-orange-600 font-bold bg-orange-50" : "text-gray-600"
               }`}
             >
               About Us
@@ -142,9 +138,7 @@ export default function Header() {
               href="/careers"
               onClick={() => setIsMenuOpen(false)}
               className={`p-3 rounded-lg hover:bg-orange-50 hover:text-orange-600 transition-colors ${
-                pathname === "/careers"
-                  ? "text-orange-600 font-bold bg-orange-50"
-                  : "text-gray-600"
+                pathname === "/careers" ? "text-orange-600 font-bold bg-orange-50" : "text-gray-600"
               }`}
             >
               Careers
@@ -153,9 +147,7 @@ export default function Header() {
               href="/contact"
               onClick={() => setIsMenuOpen(false)}
               className={`p-3 rounded-lg hover:bg-orange-50 hover:text-orange-600 transition-colors ${
-                pathname === "/contact"
-                  ? "text-orange-600 font-bold bg-orange-50"
-                  : "text-gray-600"
+                pathname === "/contact" ? "text-orange-600 font-bold bg-orange-50" : "text-gray-600"
               }`}
             >
               Contact
