@@ -43,7 +43,7 @@ export default function Home() {
               Messenger
             </Link>
             <Link
-              href='https://line.me/R/ti/p/kalaya1967'
+              href='https://line.me/R/ti/p/@kalaya1967'
               target='_blank'
               rel='noopener noreferrer'
               className='w-full sm:w-auto px-8 py-3 bg-green-500 text-white rounded-full font-bold text-lg hover:bg-green-600 hover:shadow-lg transition-all'
